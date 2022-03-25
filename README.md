@@ -10,9 +10,11 @@ Has no comments or unit testing, maybe in a future i can add it.
 
 Must create an .env file in root directory with this 3 lines:;
 
+```
 REACT_APP_CLIENT_ID={YOUR APP CLIENT ID}
 REACT_APP_AUTHORIZE_URL=https://accounts.spotify.com/authorize
 REACT_APP_REDIRECT_URL={YOUR APP REDIRECT ID}
+```
 
 Then register a new app in https://developer.spotify.com/dashboard/applications/, you should get an client_id and redirect_id, modify .env file with the proper ids
 
